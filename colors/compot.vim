@@ -14,6 +14,9 @@ endif
 let g:colors_name = "compot"
 
 " Basic groups {{{
+hi Tabline          guifg=#191919 guibg=#929292 gui=NONE
+hi TablineFill      guifg=#191919 guibg=#929292 gui=NONE
+hi TablineSel       guifg=#929292 guibg=#191919 gui=bold
 hi Cursor           guifg=NONE    guibg=#ffffff gui=NONE
 hi Visual           guifg=#ffffff guibg=#319BD2 gui=NONE
 hi CursorLine       guifg=NONE    guibg=#222222 gui=NONE
